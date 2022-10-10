@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* HTML    id = # CSS (o mesmo id só pode ser usado em um elemento)
+   HTML class = . CSS (pode ser usado em vários elementos)*/
+body {
+    background-image: linear-gradient(rgb(255, 162, 178), rgb(245, 190, 199));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    color: rgb(255, 91, 118);
+    font-weight: normal;
+}
+
+h1#principal {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(233, 210, 219);
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+.basico {
+    color: #83444b;
+}
+
+.intermediario {
+    color: #41181c;
+}
+
+.avançado {
+    color: #5c202a;
+}
+
+p {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.destaque {
+    background-color: rgba(109, 24, 59, 0.514);
+}

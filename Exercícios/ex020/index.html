@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #D6CFCB;
+        }
+
+        div {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 2em;
+            font-weight: bolder;
+            background-color: #706677;
+            color: aliceblue;
+            height: 200px;
+            margin: 10px;
+            padding:10px;
+        }
+         /* 
+         ">" significa que existe um elemento "filho" dentro da tag */
+        div > p {
+            display:none;
+            color: #290D33 ;
+            font-size: 0.55em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:200;
+        }
+
+        div:hover > p.um {
+            display:block
+        }
+
+        div > a {
+            color: #290D33 ;
+            font-size: 0.55em;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight:200;
+        }
+
+        div:visited > a#dois {
+            color: red;
+        }
+
+        h1 {
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudo-classes e div</h1>
+    <div>01
+        <p class="um">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro aperiam facere ratione deserunt numquam nobis quae minima placeat consequatur dolore cupiditate, debitis doloremque eos nemo at blanditiis optio quia similique!</p>
+    </div>
+    <div>02
+        <a id="dois" href="https://www.youtube.com/watch?v=D6QxUsTaS7U&list=RDD6QxUsTaS7U&start_radio=1" target="_blank">Clique para escutar a música</a></p>
+    </div> 
+    <div>03
+        <p class="um">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quidem ipsum in delectus quas rerum blanditiis? Consequuntur culpa nemo maxime facere veritatis a, ullam eligendi, ut laborum, consectetur quod ab.</p>
+    </div>
+</body>
+</html>

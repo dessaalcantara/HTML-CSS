@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #dee69dde;
+            margin: 0px;
+        
+        }
+        header {
+            background-color: #f3ef1c;
+            padding: 1px 10px 10px 10px;
+            text-align: center;
+        }
+    
+        nav {
+            text-align: left;
+            padding-top: 10px;
+            margin: 8px;
+        }
+        a {
+            color: #628395;
+            font-size: 12px;
+            display: block;
+            padding: 2px;
+        }
+        h2 {
+            background-color: #1C2541;
+            color: #628395;
+            padding: 5px;
+            margin: 10px;
+        }
+        p {
+            font-size: 14px;
+            margin: 8px;
+        }
+        aside {
+            font-size: 12px;
+            text-decoration: underline;
+            margin: 8px;
+        }
+        aside:hover {
+            color: #544181;
+        }
+        .noticias {
+            
+            background-color: #628395;
+            height: 150px;
+            width: 200px;
+            padding: 5px 2px 10px 2px;
+            margin: 25px 10px 0px 10px;
+            border: 5px solid #1C2541; 
+            outline: 2px groove #000000;
+            box-shadow: 5px 7px 7px #000000c4;
+            /* utilizar o devtools para configurar o box-shadow */
+            float: left;
+            border-radius: 5px;
+        }
+        .indicaçao {
+            background-color: #628395;
+            height: 150px;
+            width: 200px;
+            padding: 5px 2px 10px 2px;
+            margin: 25px 10px 0px 10px;
+            border: 5px solid #1C2541; 
+            outline: 2px groove #000000;
+            box-shadow: 5px 7px 7px #000000c4;
+            float: left;
+            border-radius: 5px;
+        }
+
+        h3 {
+            text-align: center;
+            margin: 0px;
+        }
+
+        li {
+            text-decoration: underline;
+            margin: 0px;
+        }
+
+        li:hover {
+            color: #f3ef1c;
+        }
+
+        li > a {
+            color: #000000;
+            font-size: 16px;
+        }
+
+        li > a:hover {
+            color: #f3ef1c;
+        }
+        
+        footer {
+            text-align: end;
+            font-weight: 400;
+            padding-top: 0px;
+            margin: 8px;
+            clear: both;
+        }
+        div#bola {
+            background-color: black;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            margin: 245px 0px 0px 10px;
+            
+            
+        }
+        div#bola > img {
+            width: 35px;
+            height: 35px;
+            margin-top: 14px;
+            margin-left: 17px;
+        }   
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+       
+    </header>
+    <main>
+        <nav>
+            <a href="#"> Link 1 </a>
+            
+            <a href="#"> Link 2 </a>
+            
+            <a href="#"> Link 3 </a>
+        </nav>
+        
+        <section id="artigo">
+            <article>
+                <h2>Notícias sobre o Brasil
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas quae facere fugiat, et tempore unde pariatur quidem vero doloribus, maiores aut dicta cum. Quos velit cupiditate nulla amet commodi officiis!</p>
+                <aside>Artigo escrito por Andressa Alcântara</aside>
+            </article>
+        </section>
+
+        <section class="noticias">
+            <h3>Mais notícias</h3>
+            <ul>
+                <li>Tecnologia</li>
+                <li>Saúde</li>
+                <li>Polítca</li>
+                <li>Engenharia genética</li>
+            </ul>
+        </section>
+        <section class="indicaçao">
+            <h3>Indicações</h3>
+            <ul>
+                <li><a href="#">Leitura 01</a></li>
+                <li><a href="#">Video 01</a></li>
+                <li><a href="#">Video 02</a></li>
+                <li><a href="#">Video 03</a></li>
+            </ul>
+        </section>
+    </main>
+    <div id="bola">
+        <img src="Imagens/Like.png" alt="mão fazendo like">
+    </div>
+    <footer>
+        <p>Criado por Curso em Vídeo e desenvolvido por Andressa Alcântara</p>
+    </footer>
+    
+</body>
+</html>

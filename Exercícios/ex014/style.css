@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(0, 124, 128, 0.363);
+    font-size: 13px;
+    color: rgb(0, 52, 110);
+}
+
+h1 {
+    background-color: aliceblue;
+    color: black;
+}
+
+h2 {
+    font-size: 1.3em;
+    text-decoration: underline;
+}

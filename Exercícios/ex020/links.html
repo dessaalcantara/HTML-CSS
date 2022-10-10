@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        a:active {
+            color: rgba(145, 3, 228, 0.87);
+        }
+        /* essas três configurações se tratam de pseudo-classes ":" */
+
+        a::after {
+            content: " [link]";
+            text-decoration: none;
+            color: rgb(250, 160, 160);
+        }
+        a::before {
+            content: "»  ";
+            color: black;
+        }
+        /* essa duas configurações se tratam de pseudo-elementos "::" */
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <h2>Músicas</h2>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=p50k_kklM7g" target="_blank">Para viajar</a></li>
+        <li><a href="https://www.youtube.com/watch?v=04F4xlWSFh0" target="_blank">Para animar</a></li>
+        <li><a href="https://www.youtube.com/watch?v=qgaRVvAKoqQ" target="_blank">Para chorar</a></li>
+    </ul>
+</body>
+</html>

@@ -62,6 +62,9 @@ section {
     font-size: 3vw;
 }
 
+section > p {
+    padding-bottom: 1em;
+}
 section.branco {
     background-color: white;
     color: black;
@@ -71,15 +74,11 @@ section.branco {
 section.flor {
     background-color: rgb(48, 48, 48);
     background-image: url(imagens/background001.jpg);
-    background-size:contain;
+    background-position:right;
+    background-size:cover;
     background-repeat: no-repeat;
-}
-
-section.livro {
-    background-color: rgb(48, 48, 48);
-    background-image: url(imagens/background002.jpg);
-    background-size:contain;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
 }
 
 section.flor > p {
@@ -87,10 +86,20 @@ section.flor > p {
     background-color: rgba(0, 0, 0, 0.37);
     color: white;
     padding: 10px 8px;
+    
+}
+
+section.livro {
+    background-color: rgb(48, 48, 48);
+    background-image: url(imagens/background002.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.548);
 }
 
 section.livro > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.37);
     color: white;
     padding: 10px 8px;
@@ -100,6 +109,7 @@ footer {
     background-color: black;
     color: rgba(255, 255, 255, 0.623);
     font-weight: lighter;
+    font-size: 1.2vw;
     text-align: center;
-    padding: 10px;
+    padding: 8px;
 }
